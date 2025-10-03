@@ -1,5 +1,0 @@
-READ ME:
-
-To run simulation, type "%run full_source_code {dt} {numstep} solar_system.txt {name of your output file}"
-
-This should return the orbital period, aphelion and perihelion of each object in the system.
