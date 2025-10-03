@@ -1,9 +1,9 @@
 # Solar System Simulation with Velocity Verlet Integration
 
 **Description:**
-This project simulates the motion of planets, the Moon, and comets in the Solar System using the Velocity Verlet integration method in Python. The simulation calculates trajectories, total energy, and orbital parameters such as aphelion, perihelion, and orbital period.
+Simulation of the Solar System using the Velocity Verlet integration scheme in Python, modelling planets, the Moon, Pluto, and Halley’s Comet as gravitational N-body point particles. The code outputs orbital parameters (perihelion, aphelion, orbital periods) and tracks energy conservation. 
 
-The analysis of observables (orbital parameters, energy conservation, convergence) was performed in Excel and is included in the accompanying report.
+Convergence testing identified an optimal time-step (0.5 days) for ≤0.5% relative error. Observables were validated against real data, including the Moon and Jupiter, with most errors <2%, and Neptune’s anomaly analyzed. Kepler’s Third Law was verified, including a “super-Jupiter” simulation to illustrate mass effects on orbital dynamics. All trajectory and observable analyses, convergence tests, and verification steps were performed in Excel and are fully documented in the accompanying report.
 
 ---
 
@@ -39,5 +39,5 @@ python full_source_code.py <dt> <numsteps> solar_system.txt XYZ_file.txt
 
 ## **Notes**
 
-* The Excel analysis is not included in the repo; it is summarized in the report.
+* The Excel analysis is not included in the repo; it is summarised in the report.
 * The simulation assumes point-mass particles and does not include relativistic corrections.
