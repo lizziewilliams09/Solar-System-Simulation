@@ -5,7 +5,7 @@ Simulation of the Solar System using the Velocity Verlet integration scheme in P
 
 Convergence testing identified an optimal time-step (0.5 days) for ≤0.5% relative error. Observables were validated against real data, including the Moon and Jupiter, with most errors <2%, and Neptune’s anomaly analyzed. Kepler’s Third Law was verified, including a “super-Jupiter” simulation to illustrate mass effects on orbital dynamics. All trajectory and observable analyses, convergence tests, and verification steps were performed in Excel and are fully documented in the accompanying report.
 
----
+
 
 ## **Files and Structure**
 
@@ -17,7 +17,7 @@ Convergence testing identified an optimal time-step (0.5 days) for ≤0.5% relat
 * `Simulating the Solar System Report.pdf` - PDF report describing methodology, results, and analysis.
 
 
----
+
 
 ## **Usage**
 
@@ -35,7 +35,6 @@ python full_source_code.py <dt> <numsteps> solar_system.txt XYZ_file.txt
 4. Orbital parameters are printed to the console, and distance plots are displayed interactively.
 5. See **Simulating the Solar System Report.pdf** for full analysis, plots, and discussion.
 
----
 
 ## **Notes**
 
