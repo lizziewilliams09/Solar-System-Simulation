@@ -1,6 +1,5 @@
 # Solar System Simulation with Velocity Verlet Integration
 
-**Description:**
 Simulation of the Solar System using the Velocity Verlet integration scheme in Python, modelling planets, the Moon, Pluto, and Halley’s Comet as gravitational N-body point particles. The code outputs orbital parameters (perihelion, aphelion, orbital periods) and tracks energy conservation. 
 
 Convergence testing identified an optimal time-step (0.5 days) for ≤0.5% relative error. Observables were validated against real data, including the Moon and Jupiter, with most errors <2%, and Neptune’s anomaly analyzed. Kepler’s Third Law was verified, including a “super-Jupiter” simulation to illustrate mass effects on orbital dynamics. All trajectory and observable analyses, convergence tests, and verification steps were performed in Excel and are fully documented in the accompanying report.
